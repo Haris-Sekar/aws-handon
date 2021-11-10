@@ -1,0 +1,152 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/mayeka-demo');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+*{
+
+    margin: none;
+}
+body{
+    background-image: url("../images/background1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.college_title{
+    color: #FFFF;
+}
+.nav_container{                                           
+    border: 2px solid transparent;
+    background-color:#00000030;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    margin: 20px;
+    width:fit-content;
+
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    position: fixed ;
+    margin-left: 200px;
+    overflow: hidden;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    /* margin-right: 150px; */
+}
+.nav li{
+    display: block;
+    /* position: absolute; */
+    float: right;    
+    margin-right: 55px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform .5s;
+}
+#nav_items{
+    cursor: pointer;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+#nav_items:hover{
+    background-color: #f94144;
+    color: white;
+    transform: scale(1.1);
+    font-weight: 500;
+}
+.nav-title{
+    margin-left: 50px;
+    font-size: 25px;
+    letter-spacing:3px;
+    font-weight: 800;
+    cursor:context-menu;
+    font-family: 'Gilroy-Heavy', sans-serif;
+}
+.home{
+    border: 2px solid black;
+    padding-top: 300px;
+    padding-bottom: 230px;
+
+
+}
+.title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+}
+#presents{
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    margin: 5px;
+}
+.topic{
+    color: black;
+    background-color:#00000030;
+    font-family: 'Mayeka Demi Bold Demo', sans-serif;    
+    width: fit-content;
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    transition: transform .5s;
+
+}
+.topic:hover{
+    transform: scale(1.05);
+}
+.date{
+    color: black;
+    font-family: 'Cardo', serif;    
+    width: fit-content;
+    font-size: 17px;
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5px;
+    transition: transform .5s;
+}
+.time{
+    color: black;
+    font-family: 'Cardo', serif;   
+    width: fit-content;
+    font-size: 17px;
+    /* padding: 20px; */
+    letter-spacing: 1.5px;
+    /* border-radius: 20px; */
+    margin: auto;
+    /* margin-top: 10px;     */
+    transition: transform .5s;
+}
+.organizeby{
+    font-family: 'Cardo', serif;    
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+.organizeby .ses{
+    margin: 10px;
+}
+.organizeby .mem1{
+    margin: 10px;
+}
+.organizeby .mem2{
+    margin: 10px;
+}
